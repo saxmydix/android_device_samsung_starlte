@@ -19,3 +19,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1440
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+PRIVATE_BUILD_DESC="starltexx-user 8.0.0 R16NW G960FXXU1ARCC release-keys"
+
+BUILD_FINGERPRINT := samsung/starltexx/starlte:8.0.0/R16NW/G960FXXU1ARCC:user/release-keys
+

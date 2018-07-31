@@ -4,6 +4,6 @@
 $(call inherit-product, device/samsung/starlte/full_starlte.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := havoc_starlte
+PRODUCT_NAME := lineage_starlte

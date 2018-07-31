@@ -8,6 +8,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Property overrides
 -include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/vendor_prop.mk
 
 # Inherit common device configuration
 $(call inherit-product, device/samsung/star-common/star-common.mk)
